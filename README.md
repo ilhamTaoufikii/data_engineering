@@ -20,7 +20,6 @@ Ce projet est un pipeline de données construit avec Flask et Pandas pour traite
   - os
   - codecs
   - chardet
-- **Système de fichiers local** pour stocker les fichiers CSV et JSON utilisés par l'application.
 
 ## Installation
 
