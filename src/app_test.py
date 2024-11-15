@@ -12,7 +12,6 @@ class FlaskAppTest(unittest.TestCase):
             os.makedirs(OUTPUT_PATH)
 
     def test_journal_with_most_unique_drugs(self):
-        # Your test code here
         response = app.test_client().get('/journal_with_most_unique_drugs')
         self.assertEqual(response.status_code, 200)
         
@@ -21,7 +20,6 @@ class FlaskAppTest(unittest.TestCase):
         self.assertTrue(os.path.exists(output_filename))
 
     def test_other_drugs_in_pubmed(self):
-        # Your test code here
         response = app.test_client().get('/other_drugs_in_pubmed/aspirin')
         self.assertEqual(response.status_code, 200)
         

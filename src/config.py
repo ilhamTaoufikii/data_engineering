@@ -1,6 +1,6 @@
 import os
 
-# Environment variables for local file paths (instead of GCS)
+# Environment variables for local file paths
 DRUGS_FILE = os.getenv('DRUGS_FILE', 'data/drugs.csv')
 PUBMED_CSV_FILE = os.getenv('PUBMED_CSV_FILE', 'data/pubmed.csv')
 PUBMED_JSON_FILE = os.getenv('PUBMED_JSON_FILE', 'data/pubmed.json')

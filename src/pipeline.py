@@ -138,4 +138,3 @@ def find_other_drugs_in_pubmed_not_in_clinical_trials(json_file, target_drug):
         json.dump(list(other_drugs), json_output, indent=4, ensure_ascii=False)
     
     return output_filename
-
